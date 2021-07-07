@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.io.openliberty.guides.rest.EndpointIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.419 s <<< FAILURE! - in it.io.openliberty.guides.rest.EndpointIT
+testGetProperties  Time elapsed: 0.375 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Incorrect response code from http://localhost:9080/LibertyProject/ ==> expected: <200> but was: <404>
+	at it.io.openliberty.guides.rest.EndpointIT.testGetProperties(EndpointIT.java:54)
+

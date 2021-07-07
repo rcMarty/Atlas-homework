@@ -1,0 +1,164 @@
+********************************************************************************
+product = Open Liberty 21.0.0.6 (wlp-1.0.53.cl210620210527-1900)
+wlp.install.dir = E:/martan/projekty/microservices/guide-rest-intro/finish/target/liberty/wlp/
+java.home = C:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre
+java.version = 1.8.0_292
+java.runtime = OpenJDK Runtime Environment (1.8.0_292-b10)
+os = Windows 10 (10.0; amd64) (cs_CZ)
+process = 20276@BibrainPC
+********************************************************************************
+[7.7.21 14:58:02:803 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Server defaultServer byl spuštìn.
+[7.7.21 14:58:03:284 CEST] 00000015 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Zpracování prostøedku vkládání konfigurace: E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\configDropins\overrides\liberty-plugin-variable-config.xml
+[7.7.21 14:58:03:385 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Jádro bylo spuštìno po 0,744 s.
+[7.7.21 14:58:03:397 CEST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Byla spuštìna aktualizace funkcí.
+[7.7.21 14:58:03:495 CEST] 00000016 g.apache.cxf.cxf.core.3.2:1.0.53.cl210620210527-1900(id=87)] I Aries Blueprint packages not available. So namespaces will not be registered
+[7.7.21 14:58:03:564 CEST] 00000016 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorování aplikací v dropins.
+[7.7.21 14:58:03:969 CEST] 0000002c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:58:03:970 CEST] 0000002c bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:58:04:201 CEST] 0000002b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: OpenAPIUI.
+[7.7.21 14:58:04:201 CEST] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: MicroProfileOpenAPI.
+[7.7.21 14:58:04:204 CEST] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul MicroProfileOpenAPI byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:58:04:204 CEST] 0000002b com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul OpenAPIUI byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:58:04:205 CEST] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/openapi/
+[7.7.21 14:58:04:207 CEST] 0000002b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/openapi/ui/
+[7.7.21 14:58:04:252 CEST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Správce relací nenašel umístìní stálé pamìti; objekty HttpSession budou uloženy do pamìti serveru lokální aplikace.
+[7.7.21 14:58:04:257 CEST] 0000002f com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/openapi bude vytvoøen nový kontext relace.
+[7.7.21 14:58:04:260 CEST] 00000030 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/openapi/ui bude vytvoøen nový kontext relace.
+[7.7.21 14:58:04:278 CEST] 0000002f com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:58:04:369 CEST] 00000030 com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:58:04:390 CEST] 0000002f com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Inicializace probìhla úspìšnì.
+[7.7.21 14:58:04:588 CEST] 0000002c com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:58:04:589 CEST] 0000002c com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:58:04:590 CEST] 0000002c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:58:04:590 CEST] 0000002c com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:58:04:590 CEST] 0000002c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:58:04:591 CEST] 0000002d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:58:04:592 CEST] 0000002d com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:58:04:601 CEST] 0000002d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Aplikace guide-rest-intro byla spuštìna za 0,632 sekund.
+[7.7.21 14:58:04:616 CEST] 00000031 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Konfiguraèní soubor byl pro modul plug-in webového serveru automaticky vygenerován pro tento server v E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[7.7.21 14:58:04:616 CEST] 00000020 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Kanál TCP defaultHttpEndpoint byl spuštìn a nyní naslouchá požadavkùm na hostiteli *  (IPv6) na portu 9080.
+[7.7.21 14:58:04:621 CEST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Server nainstaloval následující funkce: [jaxrs-2.1, jaxrsClient-2.1, jsonb-1.0, jsonp-1.1, mpConfig-1.2, mpOpenAPI-1.0, servlet-4.0].
+[7.7.21 14:58:04:622 CEST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Aktualizace funkcí byla dokonèena za 1,236 sekund.
+[7.7.21 14:58:04:622 CEST] 00000020 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Server defaultServer je pøipraven ke spuštìní chytøejší planety. Server defaultServer byl spuštìn za 1,981 s.
+[7.7.21 14:58:04:798 CEST] 0000002a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Konfiguraèní soubor byl pro modul plug-in webového serveru automaticky vygenerován pro tento server v E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[7.7.21 14:58:07:107 CEST] 0000002a g.apache.cxf.cxf.core.3.2:1.0.53.cl210620210527-1900(id=87)] I Setting the server's publish address to be /Api/
+[7.7.21 14:58:07:159 CEST] 0000002a com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.SystemApplication]: Inicializace probìhla úspìšnì.
+[7.7.21 14:58:51:193 CEST] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:58:51:196 CEST] 0000004b com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [guide-rest-intro] [/LibertyProject] [io.openliberty.guides.rest.SystemApplication]: Likvidace probìhla úspìšnì.
+[7.7.21 14:58:51:210 CEST] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 14:58:51:219 CEST] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:58:51:220 CEST] 0000004b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:58:51:274 CEST] 0000004b com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:58:51:274 CEST] 0000004b com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:58:51:275 CEST] 0000004b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:58:51:275 CEST] 0000004b com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:58:51:275 CEST] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:58:51:277 CEST] 0000003c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:58:51:277 CEST] 0000003c com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:58:51:280 CEST] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,061 sekund.
+[7.7.21 14:58:58:880 CEST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:58:58:890 CEST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 14:58:58:899 CEST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:58:58:899 CEST] 00000020 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:58:58:952 CEST] 00000020 com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:58:58:952 CEST] 00000020 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:58:58:953 CEST] 00000020 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:58:58:953 CEST] 00000020 com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:58:58:953 CEST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:58:58:954 CEST] 00000047 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:58:58:955 CEST] 00000047 com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:58:58:957 CEST] 00000047 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,058 sekund.
+[7.7.21 14:59:05:076 CEST] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:05:086 CEST] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 14:59:05:094 CEST] 0000003e com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:59:05:095 CEST] 0000003e bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:59:05:163 CEST] 0000003e com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:59:05:164 CEST] 0000003e com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:59:05:164 CEST] 0000003e com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:59:05:165 CEST] 0000003e com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:59:05:165 CEST] 0000003e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:05:166 CEST] 00000047 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:59:05:166 CEST] 00000047 com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:59:05:168 CEST] 00000047 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,074 sekund.
+[7.7.21 14:59:53:383 CEST] 00000063 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:53:390 CEST] 00000063 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 14:59:53:399 CEST] 00000063 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:59:53:399 CEST] 00000063 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:59:53:456 CEST] 00000063 com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:59:53:456 CEST] 00000063 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:59:53:457 CEST] 00000063 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:59:53:457 CEST] 00000063 com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:59:53:457 CEST] 00000063 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:53:459 CEST] 0000006e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:59:53:459 CEST] 0000006e com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:59:53:462 CEST] 0000006e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,062 sekund.
+[7.7.21 14:59:55:409 CEST] 0000006b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:55:418 CEST] 0000006b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 14:59:55:425 CEST] 0000006b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 14:59:55:425 CEST] 0000006b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 14:59:55:473 CEST] 0000006b com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 14:59:55:473 CEST] 0000006b com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 14:59:55:473 CEST] 0000006b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 14:59:55:473 CEST] 0000006b com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 14:59:55:474 CEST] 0000006b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 14:59:55:475 CEST] 0000006e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 14:59:55:475 CEST] 0000006e com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 14:59:55:477 CEST] 0000006e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,052 sekund.
+[7.7.21 15:09:50:468 CEST] 00000139 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 15:09:50:474 CEST] 00000139 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 15:09:50:482 CEST] 00000139 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 15:09:50:482 CEST] 00000139 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 15:09:50:526 CEST] 00000139 com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 15:09:50:527 CEST] 00000139 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 15:09:50:527 CEST] 00000139 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 15:09:50:527 CEST] 00000139 com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 15:09:50:527 CEST] 00000139 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 15:09:50:529 CEST] 000000ef com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 15:09:50:529 CEST] 000000ef com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 15:09:50:532 CEST] 000000ef com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,050 sekund.
+[7.7.21 15:10:07:927 CEST] 000000c2 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 15:10:07:933 CEST] 000000c2 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 15:10:07:938 CEST] 000000c2 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Spouštìní aplikace guide-rest-intro.
+[7.7.21 15:10:07:938 CEST] 000000c2 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: Aplikace guide-rest-intro používá volnou definici aplikace v umístìní E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\apps\guide-rest-intro.war.xml.
+[7.7.21 15:10:07:981 CEST] 000000c2 com.ibm.ws.microprofile.openapi.ApplicationProcessor         E CWWKO1650E: Pøi ovìøení dokumentu OpenAPI došlo k následujícím chybám: 
+                                                                                                               
+ - Zpráva: Bylo nalezeno více objektù Operation s hodnotou "getProperties" pro pole "operationId". "operationId" musí být jedineèné mezi všemi operacemi popsanými v rozhraní API, Umístìní: #/paths/~1Api~1SortByBest/get/operationId
+
+[7.7.21 15:10:07:981 CEST] 000000c2 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: Aplikace guide-rest-intro byla zpracována a byl vytvoøen dokument OpenAPI.
+[7.7.21 15:10:07:982 CEST] 000000c2 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Probíhá naèítání webového modulu: Liberty Project.
+[7.7.21 15:10:07:982 CEST] 000000c2 com.ibm.ws.webcontainer                                      I SRVE0250I: Webový modul Liberty Project byl svázán s virtuálním hostitelem default_host.
+[7.7.21 15:10:07:982 CEST] 000000c2 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Webová aplikace je k dispozici (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 15:10:07:984 CEST] 0000003c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Pro klíè aplikace default_host/LibertyProject bude vytvoøen nový kontext relace.
+[7.7.21 15:10:07:984 CEST] 0000003c com.ibm.ws.util                                              I SESN0172I: Správce relací generuje ID relací pomocí výchozí implementace SecureRandom prostøedí Java.
+[7.7.21 15:10:07:986 CEST] 0000003c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Aplikace guide-rest-intro byla aktualizována za 0,048 sekund.
+[7.7.21 15:10:11:787 CEST] 00000011 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Dne Støeda, 7. èervence 2021 v 15:10 bylo vyžádáno ukonèení práce serveru. Server defaultServer se vypíná.
+[7.7.21 15:10:11:790 CEST] 00000167 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Èeká se max. 30 sekund na uvedení serveru do klidového stavu.
+[7.7.21 15:10:11:794 CEST] 000000ef com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Kanál TCP defaultHttpEndpoint ukonèil naslouchání na hostiteli požadavkùm *  (IPv6) na portu 9080.
+[7.7.21 15:10:11:794 CEST] 000000ef com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/openapi/ui/
+[7.7.21 15:10:11:794 CEST] 000000ef com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/LibertyProject/
+[7.7.21 15:10:11:794 CEST] 000000ef com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Webová aplikace byla odebrána (default_host): http://host.docker.internal:9080/openapi/
+[7.7.21 15:10:12:811 CEST] 00000167 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Uvedení serveru do klidového stavu dokonèeno.
+[7.7.21 15:10:12:867 CEST] 0000010d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Aplikace guide-rest-intro byla úspìšnì zastavena.
+[7.7.21 15:10:12:880 CEST] 00000167 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Likvidace probìhla úspìšnì.
+[7.7.21 15:10:13:272 CEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Server defaultServer byl zastaven po 12 min, 10,631 s.

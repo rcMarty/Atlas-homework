@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1    7.7.21 14:22:15:743 CEST    7.7.21 14:22:15:743 CEST org.apache.cxf.interceptor.Fault com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\ffdc\ffdc_21.07.07_14.22.15.0.log
+------+------+---------------------------+---------------------------+---------------------------
