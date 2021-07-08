@@ -4,9 +4,13 @@ Toto je domácí úkol pro Atlas software a.s.
 ## info
 
 server se spustí příkazem `mvn liberty:run` na adrese `http://localhost:9080/LibertyProject`<br>
-RESTful API pro server :    `GET` - `http://localhost:9080/LibertyProject/Api/HelloWorld` - vrací json helloworld
-                            `GET` - `http://localhost:9080/LibertyProject/Api/SortByBest` - vrací json hellosortByBest
-                            `PUSH` - `http://localhost:9080/LibertyProject/Api/SortByBest` - vstupuje json s content 
+### RESTful API pro server :
+|metoda|url|popis|
+|-----|----|----|
+|`GET` | `http://localhost:9080/LibertyProject/Api/HelloWorld` | vrací json helloworld|
+|`GET` |`http://localhost:9080/LibertyProject/Api/SortByBest` | vrací json hellosortByBest|
+|`PUSH`| `http://localhost:9080/LibertyProject/Api/SortByBest` | vstupuje json s content |
+### content PUSH
 ```json
 {
     "data":[
