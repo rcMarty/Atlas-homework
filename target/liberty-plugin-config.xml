@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <liberty-plugin-config>
-    <installDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp</installDirectory>
-    <serverDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer</serverDirectory>
-    <userDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr</userDirectory>
-    <serverOutputDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer</serverOutputDirectory>
+    <installDirectory>E:\martan\projekty\Atlas-homework\target\liberty\wlp</installDirectory>
+    <serverDirectory>E:\martan\projekty\Atlas-homework\target\liberty\wlp\usr\servers\defaultServer</serverDirectory>
+    <userDirectory>E:\martan\projekty\Atlas-homework\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>E:\martan\projekty\Atlas-homework\target\liberty\wlp\usr\servers\defaultServer</serverOutputDirectory>
     <serverName>defaultServer</serverName>
-    <configDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\src\main\liberty\config</configDirectory>
-    <configFile>E:\martan\projekty\microservices\guide-rest-intro\finish\src\main\liberty\config\server.xml</configFile>
+    <configDirectory>E:\martan\projekty\Atlas-homework\src\main\liberty\config</configDirectory>
+    <configFile>E:\martan\projekty\Atlas-homework\src\main\liberty\config\server.xml</configFile>
     <appsDirectory>apps</appsDirectory>
     <looseApplication>true</looseApplication>
     <stripVersion>false</stripVersion>
@@ -19,8 +19,8 @@
         <type>zip</type>
     </assemblyArtifact>
     <assemblyArchive>C:\Users\Bibrain\.m2\repository\io\openliberty\openliberty-kernel\21.0.0.6\openliberty-kernel-21.0.0.6.zip</assemblyArchive>
-    <assemblyInstallDirectory>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty</assemblyInstallDirectory>
+    <assemblyInstallDirectory>E:\martan\projekty\Atlas-homework\target\liberty</assemblyInstallDirectory>
     <refresh>false</refresh>
-    <installAppsConfigDropins>E:\martan\projekty\microservices\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <installAppsConfigDropins>E:\martan\projekty\Atlas-homework\target\liberty\wlp\usr\servers\defaultServer\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
     <projectType>war</projectType>
 </liberty-plugin-config>
